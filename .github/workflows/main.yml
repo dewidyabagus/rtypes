@@ -18,3 +18,5 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.TOKEN_CODECOV }}
+          files: coverage.out
+          
